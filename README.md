@@ -1,7 +1,12 @@
 # python-sense-hat-text
-Command line python tool for printing custom text wuth custom color on Raspberry Pi Sense Hat
+Command line python tools for:
+* printing custom text wuth custom color on Raspberry Pi Sense Hat
+* printing temperature and humidity
 
 ##Usage
+
+
+### Text ####
 
 Specify custom text and color, for example:
 
@@ -10,3 +15,11 @@ Specify custom text and color, for example:
 ```
 
 If not specified the default text is "Hello" and the default color is red.
+
+### Temperature & Humidity ###
+
+Print the current temperature and humidity:
+
+````
+./python-sense-hat-temp-hum.py
+````
