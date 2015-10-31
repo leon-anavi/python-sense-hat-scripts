@@ -4,7 +4,7 @@ import sys
 
 from sense_hat import SenseHat
 
-text = "One small step for Pi!"
+text = "Hello"
 colorRed = 255
 colorGreen = 0
 colorBlue = 0
